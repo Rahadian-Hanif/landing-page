@@ -1,0 +1,98 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+html {
+    scroll-behavior: smooth;
+}
+section{
+    scroll-margin-top: 5em;
+}
+.hero-image{
+    width: 100%;
+    background-image: url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+   background-size:cover
+}
+
+.why-us{
+    margin: 50px 0 100px;
+}
+.why-us-title{
+    text-align: center;
+    margin-bottom: 50px;
+ }
+ .why-us-content{
+    text-align: center;
+ }
+.why-us p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.why-us .title-why-us{
+    margin-bottom: 30px;
+}
+
+.services{
+    margin: 50px 0 100px 0;
+}
+.services-title{
+   text-align: center;
+   margin-bottom: 50px;
+}
+.services .icon{
+    width: 200px;
+    height: 200px;
+}
+.services-content{
+    width: 15rem;
+    text-align: center;
+}
+
+.subscription{
+    margin: 50px 0 100px 0;
+}
+.subscription-title{
+    font-size: 20px;
+    text-align: justify;
+}
+.subscription-content{
+    text-align: center;
+}
+.subscription-content p{
+    color: #3362cc;
+    font-weight: bold;
+}
+.Newsletter{
+    background-color: #3362cc;
+    color: white;
+}
+.Newsletter img{
+    height: 400px;
+    width: 400px;
+}
+.Newsletter-form{
+    margin: 50px 25px 0 100px
+}
+
+@media only screen and (max-width:  768px) {
+    .subscription-title{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .why-us p{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .Newsletter-form{
+        margin: 50px 25px 0 15px
+    }
+    
+    
+}
+  

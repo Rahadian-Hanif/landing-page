@@ -1,0 +1,59 @@
+{
+  "pages": {
+    "index": {
+      "section": [
+        {
+          "key": "main_banner",
+          "components": {
+            "title": "Platform Penyedia Bimbingan Belajar Online",
+            "description": "XYZ Siap membantu pemuda luar biasa Indonesia dalam menghadapi perkembangan teknologi Web 4.0.",
+            "image": "assets/images/Studying.svg"
+          }
+        },
+        {
+          "key": "why_us",
+          "components": {
+            "title": "Keunggulan Bimbingan Bersama Kami",
+            "description": "Kamu dapat menentukan waktu konsulstasi dengan bebas, Kami menjamin kamu akan dapat kerja sesuai passion kamu, Kami menghadirkan mentor-mentor yang berpengalaman dibidangnya, Kamu akan mendapatkan bimbingan private sehingga kamu akan menjadi lebih fokus",
+            "image": "assets/images/mentoring.svg"
+          }
+        },
+        {
+          "key": "services",
+          "components": {
+            "title": "Saatnya Berprestasi Bersama XYZ",
+            "description": "Yuk ikuti layanan - layanan terbaik kami",
+            "image": "assets/images/achievement.svg",
+            "services": [
+              {
+                "key": "service_1",
+                "icon": "assets/images/online class.svg",
+                "name": "Kelas Online",
+                "description": "Kamu dapat mengakses pembelajaran dimana saja dan kapan saja."
+              },
+              {
+                "key": "service_2",
+                "icon": "assets/images/mentoring study.svg",
+                "name": "Bimbingan Mentor",
+                "description": "Menghadirkan mentor yang berpengalaman dibidangnya."
+              },
+              {
+                "key": "service_3",
+                "icon":  "assets/images/webinar.svg",
+                "name": "Webinar",
+                "description": "Berdiskusi dengan narasumber ahli pada bidangnya"
+              }
+            ]
+          }
+        },
+        {
+          "key": "subscription",
+          "components": {
+            "title": "Pilih sesuai minat kamu",
+            "description": "Kurikulum didesain berdasarkan standar Global untuk mempersiapkan pemuda Indonesia bersaing di ranah internasional. Kami bekerja sama dengan Google dalam pembuatan modul pembelajaran"
+          }
+        }
+      ]
+    }
+  }
+}
